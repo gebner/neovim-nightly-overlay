@@ -16,6 +16,8 @@
         neovim-nightly = neovim-flake.packages.${prev.system}.neovim;
         neovim-debug = neovim-flake.packages.${prev.system}.neovim-debug;
         neovim-developer = neovim-flake.packages.${prev.system}.neovim-developer;
+
+        neovim-qt-unwrapped = prev.neovim-qt-unwrapped;
       };
     };
 }
